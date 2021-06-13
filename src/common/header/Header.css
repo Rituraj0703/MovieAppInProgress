@@ -1,0 +1,40 @@
+.header {
+    text-align: center;
+    background: #222;
+    color: rgb(240, 231, 231);
+    text-transform: uppercase;
+    height: 36px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 32px;
+    padding-left: 16px;  
+    display: grid;
+    grid-template-areas: "logo nav";
+}
+
+/* .Nav {
+    grid-area: nav;
+    display: grid;
+    grid-template-columns:  repeat(1,auto); 
+    align-items: flex-end;
+    justify-items: flex-end;
+} */
+
+
+.Logo {
+    
+    background-color: #ff7f7f;
+    height: 35px;
+    animation: Logo-spin infinite 8s linear;
+
+   }
+
+
+   @keyframes Logo-spin {
+       from{
+           transform: rotate(0deg);
+       }
+       to{
+           transform: rotate(360deg);
+       }
+   }
