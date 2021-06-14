@@ -1,0 +1,15 @@
+.findmovies {
+    text-align: center;
+    background: #17198b;
+    color: rgb(248, 239, 239);
+    text-transform: uppercase;
+    height: 700px;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;  
+    display: grid;
+    font-size: 10rem;
+    
+}

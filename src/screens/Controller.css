@@ -1,0 +1,19 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 700px;
+    align-items: center;
+    background-color: rgb(144, 155, 94);
+  }
+
+.one {
+    flex: .76;
+    
+    
+}
+
+.two {
+    flex: .24;
+    
+}
