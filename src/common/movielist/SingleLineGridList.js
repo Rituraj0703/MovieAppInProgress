@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect , useState} from 'react';
 
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
@@ -7,22 +7,20 @@ import IconButton from '@material-ui/core/IconButton';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
 import { makeStyles } from '@material-ui/styles';
 import { install } from '@material-ui/styles';
-//import Layer_1 from '../../assets/logo.svg';
 import tileData from './tileData';
-import './SingleLineGridList.css';
 
 
 const useStyles = makeStyles({
   root: {
-    display: 'flex',
+    //display: 'flex',
     flexWrap: 'wrap',
     //justifyContent: 'space-around',
+    justifyContent: 'center',
     overflow: 'hidden',
     backgroundColor: "blue"
   },
   gridList: {
     flexWrap: 'nowrap',
-    // Promote the list into his own layer on Chrome. This cost memory but helps keeping high FPS.
     transform: 'translateZ(0)',
   },
   title: {
@@ -34,41 +32,17 @@ const useStyles = makeStyles({
   },
 });
 
-// const tileData = [
-//   {
-//     img: {Layer_1},
-//     title: 'Breakfast',
-//     author: 'jill111',
-//     cols: 2,
-//     featured: true,
-//   },
-//   {
-//     img: {Layer_1},
-//     title: 'Tasty burger',
-//     author: 'director90',
-//   },
-//   {
-//     img: {Layer_1},
-//     title: 'Camera',
-//     author: 'Danson67',
-//   },
-//   {
-//     img: {Layer_1},
-//     title: 'Morning',
-//     author: 'fancycrave1',
-//     featured: true,
-//   },
-  
-// ];
-export default function SingleLineGridList() {
+
+ export default function SingleLineGridList() {
   const classes = useStyles();
+  
 
   return (
     <div className={classes.root}>
-      <GridList className={classes.gridList} cols={2.5}>
+      <GridList className={classes.gridList} cols={6}>
         {tileData.map((tile) => (
           <GridListTile key={tile.img}>
-            <img src={tile.img} alt={tile.title} />
+            <img src={tile.poster_url} alt={tile.title} />
             <GridListTileBar
               title={tile.title}
               classes={{

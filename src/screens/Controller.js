@@ -30,6 +30,7 @@ function Controller() {
                     <FindMovies />
                 </div>
             </div>
+           
 
         </div>
 

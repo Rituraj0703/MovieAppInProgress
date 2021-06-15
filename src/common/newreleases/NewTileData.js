@@ -1,24 +1,24 @@
-const tileData = [
+const NewTileData = [
+    // {
+    //   img: '/static/images/grid-list/Batman.jpg',
+    //   title: 'Batman',
+    //   author: 'jill111',
+    //   cols: 2,
+    //   featured: true,
+    // },
     {
-      img: '/static/images/grid-list/JusticeLeague.jpg',
-      title: 'Justice League',
-      author: 'jill111',
-      cols: 2,
-      featured: true,
-    },
-    {
-      img: '/static/images/grid-list/Spiderman.jpg',
-      title: 'Spiderman Away From Home',
+      img: '/static/images/grid-list/Sanju.jpg',
+      title: 'Sanju',
       author: 'director90',
     },
     {
-      img: '/static/images/grid-list/Loki.jpg',
-      title: 'Loki',
+      img: '/static/images/grid-list/Avengers.jpg',
+      title: 'Avengers',
       author: 'Danson67',
     },
     {
-      img: '/static/images/grid-list/BodyguardOfHitnam.jpg',
-      title: 'Bodyguard of Hitman',
+      img: '/static/images/grid-list/WW84.jpg',
+      title: 'WW84',
       author: 'fancycrave1',
       featured: true,
     },
@@ -28,19 +28,19 @@ const tileData = [
       author: 'Hans',
     },
     {
-      img: '/static/images/grid-list/PredatorReturns.jpg',
-      title: 'Predators Return',
+      img: '/static/images/grid-list/Thor.jpg',
+      title: 'Thor',
       author: 'fancycravel',
     },
     {
-      img: '/static/images/grid-list/Godzilla3.jpg',
-      title: 'Godzilla3',
+      img: '/static/images/grid-list/Godzilla.jpg',
+      title: 'Godzilla',
       author: 'jill111',
       cols: 2,
     },
     {
-      img: '/static/images/grid-list/Aquaman.jpg',
-      title: 'Aquaman',
+      img: '/static/images/grid-list/Joker.jpg',
+      title: 'Joker',
       author: 'BkrmadtyaKarki',
     },
     {
@@ -66,4 +66,4 @@ const tileData = [
     },
   ];
   
-  export default tileData;
+  export default NewTileData;

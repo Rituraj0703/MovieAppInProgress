@@ -1,0 +1,28 @@
+.but-primary {
+    display: flex;
+    tab-size: lg;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+  }
+
+  .loginName {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+  }
+
+
+
+  .loginPassword {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+  }
+
+  

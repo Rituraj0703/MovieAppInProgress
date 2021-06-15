@@ -1,0 +1,47 @@
+.but-primary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+  }
+
+  .fName {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+  }
+
+  .lName {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+  }
+
+  .regEmail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+  }
+
+  .regPassword {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+  }
+
+  .regContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+  }
