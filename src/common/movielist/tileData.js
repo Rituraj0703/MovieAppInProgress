@@ -1,10 +1,10 @@
+
 const tileData = [
     {
       img: '/static/images/grid-list/JusticeLeague.jpg',
       title: 'Justice League',
       author: 'jill111',
       cols: 2,
-      featured: true,
     },
     {
       img: '/static/images/grid-list/Spiderman.jpg',

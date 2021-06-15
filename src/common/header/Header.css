@@ -12,15 +12,6 @@
     grid-template-areas: "logo nav";
 }
 
-/* .Nav {
-    grid-area: nav;
-    display: grid;
-    grid-template-columns:  repeat(1,auto); 
-    align-items: flex-end;
-    justify-items: flex-end;
-} */
-
-
 .Logo {
     
     background-color: #ff7f7f;

@@ -1,11 +1,5 @@
 const NewTileData = [
-    // {
-    //   img: '/static/images/grid-list/Batman.jpg',
-    //   title: 'Batman',
-    //   author: 'jill111',
-    //   cols: 2,
-    //   featured: true,
-    // },
+ 
     {
       img: '/static/images/grid-list/Sanju.jpg',
       title: 'Sanju',
